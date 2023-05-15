@@ -37,8 +37,11 @@ Reading package lists... Done
 
 * Comando para instalar as dependências necessárias*
 
+``` console 
+biaamorim@DESKTOP-25QGOKG:~$ sudo apt-get install ca-certificates curl gnupg
+```
+
 ``` console
-sudo apt-get install ca-certificates curl gnupg`
 `biaamorim@DESKTOP-25QGOKG:~$ sudo apt-get install ca-certificates curl gnupg
 Reading package lists... Done
 Building dependency tree... Done
