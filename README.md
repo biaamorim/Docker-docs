@@ -17,7 +17,6 @@ biaamorim@DESKTOP-25QGOKG:~$ sudo apt-get update
 ```
 
 ``` console
-biaamorim@DESKTOP-25QGOKG:~$ sudo apt-get update
 Hit:1 http://archive.ubuntu.com/ubuntu jammy InRelease
 Get:2 http://archive.ubuntu.com/ubuntu jammy-updates InRelease [119 kB]
 Get:3 http://security.ubuntu.com/ubuntu jammy-security InRelease [110 kB]
@@ -42,7 +41,6 @@ biaamorim@DESKTOP-25QGOKG:~$ sudo apt-get install ca-certificates curl gnupg
 ```
 
 ``` console
-`biaamorim@DESKTOP-25QGOKG:~$ sudo apt-get install ca-certificates curl gnupg
 Reading package lists... Done
 Building dependency tree... Done
 Reading state information... Done
