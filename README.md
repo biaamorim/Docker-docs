@@ -10,7 +10,9 @@ Repositório para documentar a instalação do docker. A base utilizada como men
 #Configurando o repositorio
 
 *[Comando para atualizar os pacotes]*
-`biaamorim@DESKTOP-25QGOKG:~$ sudo apt-get update`
+
+
+```biaamorim@DESKTOP-25QGOKG:~$ sudo apt-get update```
 
 `biaamorim@DESKTOP-25QGOKG:~$ sudo apt-get update
 Hit:1 http://archive.ubuntu.com/ubuntu jammy InRelease
