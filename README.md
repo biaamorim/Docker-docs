@@ -157,14 +157,15 @@ cd getting-started/app
 ```
 
 * Comando para abrir um editor de texto no ubunto 
-  !você está criando um novo arquivo chamado "Dockerfile" e abrindo-o no editor Nano para que você possa editá-lo e adicionar o conteúdo necessário para criar sua imagem Docker.!
+ - Nesse comando você está criando um novo arquivo chamado "Dockerfile" e abrindo-o no editor Nano para que você possa editá-lo e adicionar o conteúdo necessário para criar sua imagem Docker.!
   
 ``` console
 sudo nano Dockerfile
 ```
-  !Para salvar as alterações: **Ctrl+O** e para salvar e sair do editor **Ctrl+X**
+  - Para salvar as alterações: **Ctrl+O** e para salvar e sair do editor **Ctrl+X**
   
-* Comando para buildar o a imagem 
+* Comando para buildar a imagem 
+
   ``` console
    docker build -t getting-started .
   ```
@@ -175,7 +176,9 @@ sudo nano Dockerfile
   docker run -dp 3000:3000 getting-started
   ```
   
-  Se ocorre tudo bem esse comando vai gerar um ID do container e logo poderá acessar o localhost com a porta determina lá em cima.
+  **Se ocorre tudo bem esse comando vai gerar um ID do container e logo poderá acessar o localhost com a porta determina lá em cima.**
+  ![image](https://github.com/biaamorim/Docker-docs/assets/74803957/0588d133-e763-4aa3-b706-665093d51955)
+
   
 
 
