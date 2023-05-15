@@ -7,7 +7,7 @@ Repositório para documentar a instalação do docker. A base utilizada como men
 2 - Instalação do Ubunto.
 
 
-#Configurando o repositorio
+# Configurando o repositorio
 
 * Comando para atualizar os pacotes
 
@@ -52,7 +52,7 @@ gnupg is already the newest version (2.2.27-3ubuntu2.1).
 gnupg set to manually installed.
 0 upgraded, 0 newly installed, 0 to remove and 23 not upgraded.
 ```
-#Configurações da chave GPG
+# Configurações da chave GPG
 * Comando para criar o diretório da chave GPG
 ``` console
 sudo install -m 0755 -d /etc/apt/keyrings
@@ -79,7 +79,7 @@ sudo install -m 0755 -d /etc/apt/keyrings
 sudo apt-get update
 ```
 
-#Instalando o docker
+# Instalando o docker
 ``` console
 biaamorim@DESKTOP-25QGOKG:~$ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 Reading package lists... Done
@@ -102,7 +102,7 @@ Do you want to continue? [Y/n] Y
 ``` console
 sudo docker run hello-world
 ```
-**se cocorrer tudo bem aparecerá**
+**se ocorrer tudo bem aparecerá**
 ``` console
 biaamorim@DESKTOP-25QGOKG:~$ sudo docker run hello-world
 Unable to find image 'hello-world:latest' locally
@@ -133,7 +133,7 @@ For more examples and ideas, visit:
  https://docs.docker.com/get-started/
 ```
 
-#Previlegio para rodar o docker sem o sudo
+# Previlegio para rodar o docker sem o sudo
 
 ``` console
 sudo groupadd docker
