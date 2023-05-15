@@ -9,7 +9,7 @@ Repositório para documentar a instalação do docker. A base utilizada como men
 
 #Configurando o repositorio
 
-* - Comando para atualizar os pacotes*
+* -Comando para atualizar os pacotes*
 
 
 ```console 
@@ -35,7 +35,7 @@ Fetched 3574 kB in 21s (169 kB/s)
 Reading package lists... Done
 ```
 
-* - Comando para instalar as dependências necessárias*
+* -Comando para instalar as dependências necessárias*
 
 ```
 console
