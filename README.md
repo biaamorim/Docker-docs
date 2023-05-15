@@ -12,7 +12,9 @@ Repositório para documentar a instalação do docker. A base utilizada como men
 *[Comando para atualizar os pacotes]*
 
 
-```console biaamorim@DESKTOP-25QGOKG:~$ sudo apt-get update```
+```console 
+biaamorim@DESKTOP-25QGOKG:~$ sudo apt-get update
+```
 
 `biaamorim@DESKTOP-25QGOKG:~$ sudo apt-get update
 Hit:1 http://archive.ubuntu.com/ubuntu jammy InRelease
