@@ -179,7 +179,26 @@ sudo nano Dockerfile
   **Se ocorre tudo bem esse comando vai gerar um ID do container e logo poderá acessar o localhost com a porta determina lá em cima.**
   ![image](https://github.com/biaamorim/Docker-docs/assets/74803957/0588d133-e763-4aa3-b706-665093d51955)
 
-  
+
+# Commitando no docker hub
+
+``` console
+docker commit 2ff92cfdabd7  getting-started
+```
+
+``` console
+docker tag getting-started biaamorim/docs-docker
+
+```
+
+``` console
+docker push biaamorim/docs-docker
+```
+
+E pronto, estará lá commitado no docker hub.
+
+![image](https://github.com/biaamorim/Docker-docs/assets/74803957/a76c1e58-f351-46a9-86fe-4c1355d4a2d3)
+
 
 
 
